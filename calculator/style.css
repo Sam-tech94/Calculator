@@ -1,0 +1,43 @@
+
+body {
+    background:linear-gradient(to right, rgb(238, 14, 238), rgb(19, 19, 209));
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+span {
+    color: #000;
+    font-size: 17px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    padding: 6px;
+    outline: none;
+    border: none;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+    border-color: #000;
+}
+
+button {
+    background: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
